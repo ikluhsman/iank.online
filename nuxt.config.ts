@@ -22,7 +22,7 @@ export default defineNuxtConfig({
         },
         {
           rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css?family=Fira%20Sans",
+          href: "https://fonts.googleapis.com/css?family=DM%20Sans",
         },
       ],
     },
@@ -37,7 +37,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@nuxtjs/color-mode"],
+  modules: ["@nuxtjs/color-mode", "@pinia/nuxt"],
   nitro: {
     prerender: {
       routes: ["/sitemap.xml"],

@@ -3,14 +3,24 @@
     <img src="/me.jpg" class="rounded-full w-48 md:w-64" />
     <div class="sm:pl-6">
       <h1 class="text-3xl p-0 m-0">Ian K</h1>
-      <p class="mt-0">
-        Status: <strong class="text-green-500">Online!</strong>
-      </p>
+      <p class="mt-0">Status: <strong>Online!</strong></p>
       <p class="p-0 m-0">
-        I am <span class="text-green-500">online</span> and ready to chat with
-        you.
+        I am <span style="color: var(--accentColor)">online</span> and ready to
+        chat with you!
       </p>
-      <p class="p-0 m-0">You can send me a message via the following:</p>
     </div>
   </div>
 </template>
+<style scoped>
+@media screen and (max-height: 699px) {
+  img {
+    width: 10rem;
+  }
+}
+@media screen and (max-height: 399px) {
+  img {
+    width: 6rem;
+    content: url("/me2.jpg");
+  }
+}
+</style>

@@ -1,20 +1,5 @@
 [
   {
-    "href": "https://www.facebook.com/iankco",
-    "icon": "facebook",
-    "tooltip": "Find me on Facebook!"
-  },
-  {
-    "href": "https://github.com/ikluhsman",
-    "icon": "github",
-    "tooltip": "GitHub.com"
-  },
-  {
-    "href": "https://anikl.com",
-    "icon": "globe",
-    "tooltip": "anikl.com"
-  },
-  {
     "href": "mailto:iankluhsman@gmail.com",
     "icon": "envelope",
     "tooltip": "E-Mail iankluhsman@gmail.com"
@@ -28,5 +13,10 @@
     "href": "https://m.me/iankco",
     "icon": "messenger",
     "tooltip": "Send me a DM on Messenger"
+  },
+  {
+    "href": "https://www.linkedin.com/in/iankco/",
+    "icon": "linkedin",
+    "tooltip": "Network with me on LinkedIn"
   }
 ]

@@ -11,9 +11,9 @@
     </div>
   </div>
 </template>
-<script>
+<script lang="ts">
 const getLinks = () =>
-  import("~/data/message_links.json").then((m) => m.default || m);
+  import("~~/data/messageLinks.json").then((m) => m.default || m);
 export default {
   async setup() {
     const colorMode = useColorMode();
@@ -35,4 +35,3 @@ export default {
   },
 };
 </script>
-<style></style>
