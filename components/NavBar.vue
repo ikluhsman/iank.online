@@ -9,13 +9,12 @@
         :title="l.tooltip"
         target="_blank"
       >
-        <SvgIcon :name="l.icon" class="fill-gray-500 dark:fill-gray-200 w-6" />
+        <SvgIcon :name="l.icon" class="w-6" />
       </a>
     </nav>
   </div>
 </template>
 <script>
-import { useAppStore } from "../stores/AppStore.js";
 export default {
   props: {
     links: {
@@ -23,12 +22,6 @@ export default {
       default: [],
       required: true,
     },
-  },
-  setup() {
-    const appStore = useAppStore();
-    return {
-      appStore,
-    };
   },
 };
 </script>

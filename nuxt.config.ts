@@ -31,26 +31,20 @@ export default defineNuxtConfig({
     transpile: ["gsap"],
   },
   css: ["~/assets/scss/main.scss"],
+  modules: ["@nuxtjs/color-mode", "@pinia/nuxt"],
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
-  modules: ["@nuxtjs/color-mode", "@pinia/nuxt"],
   nitro: {
     prerender: {
       routes: ["/sitemap.xml"],
     },
   },
   colorMode: {
-    preference: "system", // default value of $colorMode.preference
-    fallback: "light", // fallback value if not system preference found
-    hid: "nuxt-color-mode-script",
-    globalName: "__NUXT_COLOR_MODE__",
-    componentName: "ColorScheme",
+    preference: "light",
     classPrefix: "",
-    classSuffix: "",
-    storageKey: "nuxt-color-mode",
   },
 });

@@ -1,6 +1,10 @@
 <template>
   <div class="pt-1">
-    <span v-if="svg" class="h-[1em] w-[1em]" v-html="svg" />
+    <span
+      v-if="svg"
+      class="h-[1em] w-[1em] fill-gray-600 dark:fill-gray-100"
+      v-html="svg"
+    />
   </div>
 </template>
 

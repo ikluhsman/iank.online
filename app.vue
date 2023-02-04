@@ -9,7 +9,6 @@ export default {
   setup() {
     const appStore = useAppStore();
     appStore.fetchRandomColor();
-    // appStore.fetchIcons();
     return {
       appStore,
     };
