@@ -16,22 +16,13 @@ const getLinks = () =>
   import("~~/data/messageLinks.json").then((m) => m.default || m);
 export default {
   async setup() {
-    const colorMode = useColorMode();
     const { data: links } = await useAsyncData("links", () => {
       const l = getLinks();
       return l;
     });
     return {
-      colorMode,
       links,
     };
-  },
-  methods: {
-    colorModeClicked() {
-      this.colorMode.preference === "dark"
-        ? (this.colorMode.preference = "light")
-        : (this.colorMode.preference = "dark");
-    },
   },
 };
 </script>

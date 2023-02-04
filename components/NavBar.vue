@@ -9,7 +9,7 @@
         :title="l.tooltip"
         target="_blank"
       >
-        <SvgIcon :name="l.icon" class="w-6" />
+        <SvgIcon :name="l.icon" class="fill-gray-500 dark:fill-gray-100 w-6" />
       </a>
     </nav>
   </div>
