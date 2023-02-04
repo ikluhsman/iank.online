@@ -18,5 +18,10 @@
     "href": "https://www.linkedin.com/in/iankco/",
     "icon": "linkedin",
     "tooltip": "Network with me on LinkedIn"
+  },
+  {
+    "href": "https://discordapp.com/users/810994010922680330",
+    "icon": "discord",
+    "tooltip": "Invite me to a Discord channel"
   }
 ]
